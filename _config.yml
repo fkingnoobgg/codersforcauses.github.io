@@ -13,7 +13,8 @@ paginate:     1
 gems:
   - jekyll-paginate
 
-#includes
+facebook_username: codersforcauses
+github_username: codersforcauses
 
 #Others
 permalink: /:title/
