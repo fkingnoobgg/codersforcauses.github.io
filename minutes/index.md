@@ -5,6 +5,7 @@ title: Minutes
 
 ## Committee Meetings
 
+- [13-04-17](/minutes/pdfs/CM-11-13-04-17.pdf)
 - [06-04-17](/minutes/pdfs/CM-10-06-04-17.pdf)
 - [30-03-17](/minutes/pdfs/CM-9-30-03-17.pdf)
 - [23-03-17](/minutes/pdfs/CM-8-23-03-17.pdf)
