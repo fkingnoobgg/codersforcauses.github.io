@@ -1,0 +1,24 @@
+---
+layout: default
+title: hackathon
+support: [lightgallery]
+---
+<div id="lightgallery">
+  {% for image in site.static_files %}
+    {% if image.path contains 'hackathon' %}
+      <div class="col-xs-6 col-sm-4 col-md-3" data-src="{{ site.baseurl }}{{ image.path }}" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+        <a href="">
+            <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}">
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery({
+      
+        });
+    });
+</script>
