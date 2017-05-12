@@ -1,7 +1,7 @@
 ---
 layout: default
 title: hackathon
-support: [lightgallery]
+support: [lightgallery,scrolltop]
 ---
 <div id="gallery">
   {% for image in site.static_files %}
@@ -13,9 +13,19 @@ support: [lightgallery]
   {% endfor %}
 </div>
 
+<!-- scroll up button -->
+<div id="dyscrollup-btn"></div>
+
 <script type="text/javascript">
     $(document).ready(function() {
+        // initialise gallery
         $("#gallery").lightGallery();
+
+        // initialise scroll top function
+        dyscrollup.init({
+          image : "{{ site.baseurl }}/img/scrolltop/36.png"
+        });
+
         //$("#gallery").justifiedGallery();
     });
 </script>

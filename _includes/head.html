@@ -7,6 +7,8 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- dependencies for making a gallery -->
   {% if page.support contains 'lightgallery' %}
     <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/lightgallery.css" />
 
@@ -31,5 +33,11 @@
     <!-- justified gallery plubgins -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/justifiedGallery.min.css" />
     <script src="{{ site.baseurl }}/js/jquery.justifiedGallery.min.js"></script>
+  {% endif %}
+
+  <!-- dependencies for scroll top function -->
+  {% if page.support contains 'scrolltop' %}
+    <script src="{{ site.baseurl }}/js/scrolltop/dyscrollup.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/scrolltop/dyscrollup.min.css" />
   {% endif %}
 </head>
