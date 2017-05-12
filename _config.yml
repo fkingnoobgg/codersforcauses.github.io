@@ -1,7 +1,7 @@
 # Setup
 title:        Coders for Causes
 tagline:      Student Developers for Charities and Not-For-Profits
-baseurl:      /codersforcauses.github.io #subpath of site
+baseurl:      "/codersforcauses.github.io" #subpath of site
 paginate:     1
 
 # About/contact
