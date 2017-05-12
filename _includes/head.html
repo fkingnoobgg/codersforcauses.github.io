@@ -7,4 +7,29 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  {% if page.support contains 'lightgallery' %}
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/lightgallery.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/lightgallery.min.js"></script>
+
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="{{ site.baseurl }}/js/lg-thumbnail.min.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-fullscreen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-fullscreen.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-thumbnail.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-video.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-autoplay.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-zoom.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-hash.js"></script>
+    <script src="{{ site.baseurl }}/js/lg-pager.js"></script>
+
+    <!-- justified gallery plubgins -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/justifiedGallery.min.css" />
+    <script src="{{ site.baseurl }}/js/jquery.justifiedGallery.min.js"></script>
+  {% endif %}
 </head>

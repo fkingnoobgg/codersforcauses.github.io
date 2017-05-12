@@ -1,0 +1,21 @@
+---
+layout: default
+title: hackathon
+support: [lightgallery]
+---
+<div id="gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains 'hackathon' %}
+        <a href="{{ site.baseurl }}{{ image.path }}">
+            <img class="img-responsive" src="{{ site.baseurl }}{{ image.path }}">
+        </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#gallery").lightGallery();
+        //$("#gallery").justifiedGallery();
+    });
+</script>
