@@ -1,0 +1,19 @@
+/*
+  - css for footer
+*/
+
+.site-footer {
+  display: flex;
+}
+
+.github-repo-link {
+  font-size: 0.8em;
+  color: #34495e;
+  margin-left: auto;
+  margin-top: auto;
+  text-decoration: none!important;
+}
+
+.fa-code {
+  font-size: 1.2em;
+}
