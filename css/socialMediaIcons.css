@@ -1,0 +1,33 @@
+/*
+  - requires font awesome
+  - css code for social media icons
+*/
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+   margin: 0 5px;
+   color: #34495e;
+   text-decoration: none;
+}
+
+.social-icons a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.social-icons>.fa {
+  padding-top: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #34495e;
+}
+
+.social-icons>.fa:hover {
+  background-color: #34495e;
+}

@@ -15,6 +15,7 @@ gems:
 
 facebook_username: codersforcauses
 github_username: codersforcauses
+site_repo_link: "https://github.com/codersforcauses/codersforcauses.github.io"
 
 #Others
 permalink: /:title/
